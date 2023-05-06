@@ -1,6 +1,6 @@
 import { LikeButton } from "./LikeButton";
 import Link from "next/link";
-import styles from "./ListOfPosts.module.css";
+import styles from "../../../styles/ListOfPosts.module.css";
 
 export async function ListOfPosts() {
   const posts = await fetchPost();
