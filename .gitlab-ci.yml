@@ -13,7 +13,7 @@ pages:
     - npm install
   script:
     # Build application and move content to public folder
-    - npm run publish
+    - npm run build
     - mv out/* public
   after_script:
     # Cleanup
