@@ -17,6 +17,7 @@ pages:
   after_script:
     # Cleanup
     - rm -rf out
+    - mv out public
   artifacts:
     paths:
       - public
