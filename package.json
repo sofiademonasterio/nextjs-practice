@@ -7,8 +7,7 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "publish": "next build && next export"
+    "lint": "next lint"
   },
   "dependencies": {
     "eslint": "8.40.0",
