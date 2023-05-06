@@ -1,0 +1,11 @@
+.title {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    color: #09f;
+}
+
+.title a:hover {
+    color: #f0f0f0;
+    text-decoration: underline;
+}
