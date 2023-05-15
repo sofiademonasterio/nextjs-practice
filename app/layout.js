@@ -1,6 +1,7 @@
 import './styles/globals.css'
 import { font } from './font'
 import Navigation from './components/Navigation'
+import "./styles/bootstrap.scss";
 
 export const metadata = {
   title: 'Next.js Practice',
