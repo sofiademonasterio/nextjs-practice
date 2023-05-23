@@ -1,7 +1,7 @@
-import './styles/globals.css'
+import './styles/globals.scss'
 import { font } from './font'
 import Navigation from './components/Navigation'
-import "./styles/bootstrap.scss";
+
 
 export const metadata = {
   title: 'Next.js Practice',
@@ -10,11 +10,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={font.className}>
-      <div class="container">
+    <html lang="en" className={font.className}>
+      <body class="container">
         <Navigation />
-      </div>
         {children}
       </body>
     </html>

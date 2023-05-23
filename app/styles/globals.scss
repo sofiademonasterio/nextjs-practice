@@ -1,0 +1,21 @@
+
+html {
+  background-color: #1E2125;
+  
+}
+
+.container {
+  background-color: #212529;
+  color: #e42525;
+}
+
+.nav{
+  font-size: 20px;
+  
+}
+
+$theme-colors: (
+  'primary': #b10909cb,
+);
+$enable-cssgrid: true;
+@import '/node_modules/bootstrap/scss/bootstrap.scss';

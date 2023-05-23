@@ -29,7 +29,7 @@ export default function SendForm() {
             rows="3"
           ></textarea>
         </div>
-        <button className="btn btn-primary">Send</button>
+        <button className="btn btn-primary btn-lg">Send</button>
       </form>
     </div>
   );
