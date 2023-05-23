@@ -12,7 +12,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={font.className}>
+      <div class="container">
         <Navigation />
+      </div>
         {children}
       </body>
     </html>
