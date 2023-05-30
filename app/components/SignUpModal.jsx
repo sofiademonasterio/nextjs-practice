@@ -22,19 +22,29 @@ export default function SignUpModal() {
         Sign-up
       </button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} backdrop="static">
         <Modal.Header closeButton>
           <Modal.Title>Sign Up</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form></Form>
+          <Form>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Username</Form.Label>
+              <Form.Control type="text" placeholder="Enter username" />
+              <Form.Label>Email</Form.Label>
+              <Form.Control type="text" placeholder="Enter username" />
+              <Form.Label>Confirm Email</Form.Label>
+              <Form.Control type="email" placeholder="Enter email" />
+              <Form.Label>Password</Form.Label>
+              <Form.Control type="password" placeholder="Password" />
+              <Form.Label>Confirm Password</Form.Label>
+              <Form.Control type="password" placeholder="Confirm Password" />
+            </Form.Group>
+          </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
           <Button variant="primary" onClick={handleClose}>
-            Save Changes
+            Submit
           </Button>
         </Modal.Footer>
       </Modal>
